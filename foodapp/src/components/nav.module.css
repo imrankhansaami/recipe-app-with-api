@@ -1,8 +1,13 @@
 .nav {
-  font-size: 2em;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 30px;
-  color: #393e46;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #d4a574 0%, #c4915f 100%);
+  font-size: 1.8em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 24px 32px;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(212, 165, 116, 0.2);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }

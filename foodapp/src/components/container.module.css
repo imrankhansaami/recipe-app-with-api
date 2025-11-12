@@ -1,3 +1,16 @@
 .parentContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 32px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .parentContainer {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
 }

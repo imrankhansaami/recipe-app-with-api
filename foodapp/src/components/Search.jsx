@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./search.module.css";
 
 export default function Search({ foodData, setFoodData }) {
-  const [query, setQuery] = useState("pizza");
+  const [query, setQuery] = useState("");
   useEffect(() => {
     async function fetchFood() {
       try {
@@ -37,6 +37,7 @@ export default function Search({ foodData, setFoodData }) {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        placeholder="🔍 Search for your favorite recipe (e.g., pizza, pasta, chicken)..."
       />
     </div>
   );
