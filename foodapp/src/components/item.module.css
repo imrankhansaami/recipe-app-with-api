@@ -1,0 +1,31 @@
+.itemContainer {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.imageContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.nameContainer {
+  margin-left: 50px;
+}
+.name {
+  font-size: larger;
+  font-weight: bold;
+}
+.amount {
+  color: gray;
+  font-size: larger;
+  font-weight: bold;
+}
